@@ -4,13 +4,13 @@
 /*Created by Luis Vargas, February 2nd, 2023
 This is part of Harvard's CS50 programming course*/
 
-int get_height(void); //Declaring functins used in main
+int get_height(void); //Declaring functions used in main
 void spaces(int i, int j);
 void hashtags(int i);
 
 int main(void)
 {
-    int h = get_height(); //Getting the height from the user
+    int h = get_height(); //Getting the height of the pyramids from the user
     for (int i = 0; i < h; i++)
     {
         spaces(i, h); //Printing the spaces
